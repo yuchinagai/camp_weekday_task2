@@ -69,10 +69,6 @@ class TrackCar < Car
   attr_reader :load_weight
 
   def initialize(number, color,load_weight=500)
-    @number = number
-    @color = color
-    # @speedを初期化
-    @speed = 0
     @load_weight = load_weight
     @@count += 1
   end
