@@ -27,7 +27,7 @@ class Car
       puts "[ALERT]スピードが#{@speed}になりました。減速します。"
       speed_down
     elsif @speed >= 30
-        puts "[ALERT]スピードが#{@speed}になりました。"
+      puts "[ALERT]スピードが#{@speed}になりました。"
     end
   end
 
