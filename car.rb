@@ -58,7 +58,7 @@ class Car
 
   # 課題2-4
   def self.count_info
-    print "Carクラスのクラス変数@@countは#{@@count}です。"
+    "Carクラスのクラス変数@@countは#{@@count}です。"
   end
 end
 
@@ -66,7 +66,7 @@ end
 # TrackCarクラスの作成
 class TrackCar < Car
   attr_reader :load_weight
-  def initialize(number, color,load_weight=500)
+  def initialize(number, color, load_weight=500)
     super number, color
     @load_weight = load_weight
   end
